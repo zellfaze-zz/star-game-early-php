@@ -37,4 +37,12 @@ class Tools extends CI_Controller {
     
     echo 'Saved Map' . PHP_EOL;
   }
+  
+  public function deleteUsers() {
+    $this->load->model('user_model');
+    
+    $this->user_model->emptyUsers();
+    
+    echo 'Deleted all users! Please create root' . PHP_EOL;
+  }
 }

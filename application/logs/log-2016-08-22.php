@@ -1950,3 +1950,45 @@ INFO - 2016-08-22 22:53:31 --> Model Class Initialized
 INFO - 2016-08-22 22:53:31 --> File loaded: /var/www/star-game/application/views/explore.php
 INFO - 2016-08-22 22:53:31 --> Final output sent to browser
 DEBUG - 2016-08-22 22:53:31 --> Total execution time: 0.2239
+INFO - 2016-08-22 23:20:22 --> Config Class Initialized
+INFO - 2016-08-22 23:20:22 --> Hooks Class Initialized
+DEBUG - 2016-08-22 23:20:22 --> UTF-8 Support Enabled
+INFO - 2016-08-22 23:20:22 --> Utf8 Class Initialized
+INFO - 2016-08-22 23:20:22 --> URI Class Initialized
+INFO - 2016-08-22 23:20:22 --> Router Class Initialized
+INFO - 2016-08-22 23:20:22 --> Output Class Initialized
+INFO - 2016-08-22 23:20:22 --> Security Class Initialized
+DEBUG - 2016-08-22 23:20:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-22 23:20:22 --> Input Class Initialized
+INFO - 2016-08-22 23:20:22 --> Language Class Initialized
+INFO - 2016-08-22 23:20:22 --> Loader Class Initialized
+INFO - 2016-08-22 23:20:22 --> Helper loaded: url_helper
+INFO - 2016-08-22 23:20:22 --> Controller Class Initialized
+INFO - 2016-08-22 23:20:22 --> Model Class Initialized
+INFO - 2016-08-22 23:20:22 --> Model Class Initialized
+INFO - 2016-08-22 23:20:22 --> Database Driver Class Initialized
+INFO - 2016-08-22 23:20:22 --> Model Class Initialized
+INFO - 2016-08-22 23:20:23 --> File loaded: /var/www/star-game/application/views/explore.php
+INFO - 2016-08-22 23:20:23 --> Final output sent to browser
+DEBUG - 2016-08-22 23:20:23 --> Total execution time: 0.6077
+INFO - 2016-08-22 23:20:26 --> Config Class Initialized
+INFO - 2016-08-22 23:20:26 --> Hooks Class Initialized
+DEBUG - 2016-08-22 23:20:26 --> UTF-8 Support Enabled
+INFO - 2016-08-22 23:20:26 --> Utf8 Class Initialized
+INFO - 2016-08-22 23:20:26 --> URI Class Initialized
+INFO - 2016-08-22 23:20:26 --> Router Class Initialized
+INFO - 2016-08-22 23:20:26 --> Output Class Initialized
+INFO - 2016-08-22 23:20:26 --> Security Class Initialized
+DEBUG - 2016-08-22 23:20:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-22 23:20:26 --> Input Class Initialized
+INFO - 2016-08-22 23:20:26 --> Language Class Initialized
+INFO - 2016-08-22 23:20:26 --> Loader Class Initialized
+INFO - 2016-08-22 23:20:26 --> Helper loaded: url_helper
+INFO - 2016-08-22 23:20:26 --> Controller Class Initialized
+INFO - 2016-08-22 23:20:26 --> Model Class Initialized
+INFO - 2016-08-22 23:20:26 --> Model Class Initialized
+INFO - 2016-08-22 23:20:26 --> Database Driver Class Initialized
+INFO - 2016-08-22 23:20:26 --> Model Class Initialized
+INFO - 2016-08-22 23:20:26 --> File loaded: /var/www/star-game/application/views/examine.php
+INFO - 2016-08-22 23:20:26 --> Final output sent to browser
+DEBUG - 2016-08-22 23:20:26 --> Total execution time: 0.1675

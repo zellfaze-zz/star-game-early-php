@@ -5,6 +5,7 @@ class Welcome extends CI_Controller {
     parent::__construct();
     
     require_once('application/third_party/load.php');
+    redirectLogin();
   }
   
   public function index() {
