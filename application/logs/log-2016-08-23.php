@@ -3753,3 +3753,232 @@ INFO - 2016-08-23 01:21:45 --> Helper loaded: security_helper
 INFO - 2016-08-23 01:21:45 --> File loaded: /var/www/star-game/application/views/login.php
 INFO - 2016-08-23 01:21:45 --> Final output sent to browser
 DEBUG - 2016-08-23 01:21:45 --> Total execution time: 0.0103
+INFO - 2016-08-23 01:34:15 --> Config Class Initialized
+INFO - 2016-08-23 01:34:15 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:34:15 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:34:15 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:34:15 --> URI Class Initialized
+INFO - 2016-08-23 01:34:15 --> Router Class Initialized
+INFO - 2016-08-23 01:34:15 --> Output Class Initialized
+INFO - 2016-08-23 01:34:15 --> Security Class Initialized
+DEBUG - 2016-08-23 01:34:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:34:15 --> Input Class Initialized
+INFO - 2016-08-23 01:34:15 --> Language Class Initialized
+INFO - 2016-08-23 01:34:15 --> Loader Class Initialized
+INFO - 2016-08-23 01:34:15 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:34:15 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:34:15 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:34:15 --> Controller Class Initialized
+INFO - 2016-08-23 01:34:15 --> Config Class Initialized
+INFO - 2016-08-23 01:34:15 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:34:15 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:34:15 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:34:15 --> URI Class Initialized
+INFO - 2016-08-23 01:34:15 --> Router Class Initialized
+INFO - 2016-08-23 01:34:15 --> Output Class Initialized
+INFO - 2016-08-23 01:34:15 --> Security Class Initialized
+DEBUG - 2016-08-23 01:34:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:34:15 --> Input Class Initialized
+INFO - 2016-08-23 01:34:15 --> Language Class Initialized
+INFO - 2016-08-23 01:34:15 --> Loader Class Initialized
+INFO - 2016-08-23 01:34:15 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:34:15 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:34:15 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:34:15 --> Controller Class Initialized
+INFO - 2016-08-23 01:34:15 --> Model Class Initialized
+INFO - 2016-08-23 01:34:15 --> Model Class Initialized
+INFO - 2016-08-23 01:34:15 --> Database Driver Class Initialized
+INFO - 2016-08-23 01:34:15 --> Helper loaded: security_helper
+INFO - 2016-08-23 01:34:15 --> File loaded: /var/www/star-game/application/views/login.php
+INFO - 2016-08-23 01:34:15 --> Final output sent to browser
+DEBUG - 2016-08-23 01:34:15 --> Total execution time: 0.0187
+INFO - 2016-08-23 01:34:23 --> Config Class Initialized
+INFO - 2016-08-23 01:34:23 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:34:23 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:34:23 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:34:23 --> URI Class Initialized
+INFO - 2016-08-23 01:34:23 --> Router Class Initialized
+INFO - 2016-08-23 01:34:23 --> Output Class Initialized
+INFO - 2016-08-23 01:34:23 --> Security Class Initialized
+DEBUG - 2016-08-23 01:34:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:34:23 --> Input Class Initialized
+INFO - 2016-08-23 01:34:23 --> Language Class Initialized
+INFO - 2016-08-23 01:34:23 --> Loader Class Initialized
+INFO - 2016-08-23 01:34:23 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:34:23 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:34:23 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:34:23 --> Controller Class Initialized
+INFO - 2016-08-23 01:34:23 --> Model Class Initialized
+INFO - 2016-08-23 01:34:23 --> Model Class Initialized
+INFO - 2016-08-23 01:34:23 --> Database Driver Class Initialized
+INFO - 2016-08-23 01:34:23 --> Helper loaded: security_helper
+INFO - 2016-08-23 01:34:24 --> Config Class Initialized
+INFO - 2016-08-23 01:34:24 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:34:24 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:34:24 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:34:24 --> URI Class Initialized
+INFO - 2016-08-23 01:34:24 --> Router Class Initialized
+INFO - 2016-08-23 01:34:24 --> Output Class Initialized
+INFO - 2016-08-23 01:34:24 --> Security Class Initialized
+DEBUG - 2016-08-23 01:34:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:34:24 --> Input Class Initialized
+INFO - 2016-08-23 01:34:24 --> Language Class Initialized
+INFO - 2016-08-23 01:34:24 --> Loader Class Initialized
+INFO - 2016-08-23 01:34:24 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:34:24 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:34:24 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:34:24 --> Controller Class Initialized
+INFO - 2016-08-23 01:34:24 --> Final output sent to browser
+DEBUG - 2016-08-23 01:34:24 --> Total execution time: 0.0139
+INFO - 2016-08-23 01:34:29 --> Config Class Initialized
+INFO - 2016-08-23 01:34:29 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:34:29 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:34:29 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:34:29 --> URI Class Initialized
+INFO - 2016-08-23 01:34:29 --> Router Class Initialized
+INFO - 2016-08-23 01:34:29 --> Output Class Initialized
+INFO - 2016-08-23 01:34:29 --> Security Class Initialized
+DEBUG - 2016-08-23 01:34:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:34:29 --> Input Class Initialized
+INFO - 2016-08-23 01:34:29 --> Language Class Initialized
+INFO - 2016-08-23 01:34:29 --> Loader Class Initialized
+INFO - 2016-08-23 01:34:29 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:34:29 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:34:29 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:34:29 --> Controller Class Initialized
+INFO - 2016-08-23 01:34:45 --> Config Class Initialized
+INFO - 2016-08-23 01:34:45 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:34:45 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:34:45 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:34:45 --> URI Class Initialized
+INFO - 2016-08-23 01:34:45 --> Router Class Initialized
+INFO - 2016-08-23 01:34:45 --> Output Class Initialized
+INFO - 2016-08-23 01:34:45 --> Security Class Initialized
+DEBUG - 2016-08-23 01:34:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:34:45 --> Input Class Initialized
+INFO - 2016-08-23 01:34:45 --> Language Class Initialized
+INFO - 2016-08-23 01:34:45 --> Loader Class Initialized
+INFO - 2016-08-23 01:34:45 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:34:45 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:34:45 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:34:45 --> Controller Class Initialized
+INFO - 2016-08-23 01:34:53 --> Config Class Initialized
+INFO - 2016-08-23 01:34:53 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:34:53 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:34:53 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:34:53 --> URI Class Initialized
+INFO - 2016-08-23 01:34:53 --> Router Class Initialized
+INFO - 2016-08-23 01:34:53 --> Output Class Initialized
+INFO - 2016-08-23 01:34:53 --> Security Class Initialized
+DEBUG - 2016-08-23 01:34:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:34:53 --> Input Class Initialized
+INFO - 2016-08-23 01:34:53 --> Language Class Initialized
+INFO - 2016-08-23 01:34:53 --> Loader Class Initialized
+INFO - 2016-08-23 01:34:53 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:34:53 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:34:53 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:34:53 --> Controller Class Initialized
+INFO - 2016-08-23 01:35:11 --> Config Class Initialized
+INFO - 2016-08-23 01:35:11 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:35:11 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:35:11 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:35:11 --> URI Class Initialized
+INFO - 2016-08-23 01:35:11 --> Router Class Initialized
+INFO - 2016-08-23 01:35:11 --> Output Class Initialized
+INFO - 2016-08-23 01:35:11 --> Security Class Initialized
+DEBUG - 2016-08-23 01:35:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:35:11 --> Input Class Initialized
+INFO - 2016-08-23 01:35:11 --> Language Class Initialized
+INFO - 2016-08-23 01:35:11 --> Loader Class Initialized
+INFO - 2016-08-23 01:35:11 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:35:11 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:35:11 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:35:11 --> Controller Class Initialized
+INFO - 2016-08-23 01:35:11 --> Model Class Initialized
+INFO - 2016-08-23 01:35:11 --> Model Class Initialized
+INFO - 2016-08-23 01:35:11 --> Database Driver Class Initialized
+INFO - 2016-08-23 01:35:11 --> Helper loaded: security_helper
+INFO - 2016-08-23 01:35:11 --> Config Class Initialized
+INFO - 2016-08-23 01:35:11 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:35:11 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:35:11 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:35:11 --> URI Class Initialized
+INFO - 2016-08-23 01:35:11 --> Router Class Initialized
+INFO - 2016-08-23 01:35:11 --> Output Class Initialized
+INFO - 2016-08-23 01:35:11 --> Security Class Initialized
+DEBUG - 2016-08-23 01:35:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:35:11 --> Input Class Initialized
+INFO - 2016-08-23 01:35:11 --> Language Class Initialized
+INFO - 2016-08-23 01:35:11 --> Loader Class Initialized
+INFO - 2016-08-23 01:35:11 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:35:11 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:35:11 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:35:11 --> Controller Class Initialized
+INFO - 2016-08-23 01:35:11 --> Model Class Initialized
+INFO - 2016-08-23 01:35:11 --> Model Class Initialized
+INFO - 2016-08-23 01:35:11 --> Database Driver Class Initialized
+INFO - 2016-08-23 01:35:11 --> Helper loaded: security_helper
+INFO - 2016-08-23 01:35:11 --> File loaded: /var/www/star-game/application/views/login.php
+INFO - 2016-08-23 01:35:11 --> Final output sent to browser
+DEBUG - 2016-08-23 01:35:11 --> Total execution time: 0.0160
+INFO - 2016-08-23 01:35:16 --> Config Class Initialized
+INFO - 2016-08-23 01:35:16 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:35:16 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:35:16 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:35:16 --> URI Class Initialized
+INFO - 2016-08-23 01:35:16 --> Router Class Initialized
+INFO - 2016-08-23 01:35:16 --> Output Class Initialized
+INFO - 2016-08-23 01:35:16 --> Security Class Initialized
+DEBUG - 2016-08-23 01:35:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:35:16 --> Input Class Initialized
+INFO - 2016-08-23 01:35:16 --> Language Class Initialized
+INFO - 2016-08-23 01:35:16 --> Loader Class Initialized
+INFO - 2016-08-23 01:35:16 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:35:16 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:35:16 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:35:16 --> Controller Class Initialized
+INFO - 2016-08-23 01:35:16 --> Model Class Initialized
+INFO - 2016-08-23 01:35:16 --> Model Class Initialized
+INFO - 2016-08-23 01:35:16 --> Database Driver Class Initialized
+INFO - 2016-08-23 01:35:16 --> Helper loaded: security_helper
+INFO - 2016-08-23 01:35:16 --> Config Class Initialized
+INFO - 2016-08-23 01:35:16 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:35:16 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:35:16 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:35:16 --> URI Class Initialized
+INFO - 2016-08-23 01:35:16 --> Router Class Initialized
+INFO - 2016-08-23 01:35:16 --> Output Class Initialized
+INFO - 2016-08-23 01:35:16 --> Security Class Initialized
+DEBUG - 2016-08-23 01:35:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:35:16 --> Input Class Initialized
+INFO - 2016-08-23 01:35:16 --> Language Class Initialized
+INFO - 2016-08-23 01:35:16 --> Loader Class Initialized
+INFO - 2016-08-23 01:35:16 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:35:16 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:35:16 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:35:16 --> Controller Class Initialized
+INFO - 2016-08-23 01:35:16 --> Final output sent to browser
+DEBUG - 2016-08-23 01:35:16 --> Total execution time: 0.0099
+INFO - 2016-08-23 01:35:19 --> Config Class Initialized
+INFO - 2016-08-23 01:35:19 --> Hooks Class Initialized
+DEBUG - 2016-08-23 01:35:19 --> UTF-8 Support Enabled
+INFO - 2016-08-23 01:35:19 --> Utf8 Class Initialized
+INFO - 2016-08-23 01:35:19 --> URI Class Initialized
+INFO - 2016-08-23 01:35:19 --> Router Class Initialized
+INFO - 2016-08-23 01:35:19 --> Output Class Initialized
+INFO - 2016-08-23 01:35:19 --> Security Class Initialized
+DEBUG - 2016-08-23 01:35:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-08-23 01:35:19 --> Input Class Initialized
+INFO - 2016-08-23 01:35:19 --> Language Class Initialized
+INFO - 2016-08-23 01:35:19 --> Loader Class Initialized
+INFO - 2016-08-23 01:35:19 --> Helper loaded: url_helper
+INFO - 2016-08-23 01:35:19 --> Helper loaded: login_helper
+INFO - 2016-08-23 01:35:19 --> Session: Class initialized using 'files' driver.
+INFO - 2016-08-23 01:35:19 --> Controller Class Initialized
+INFO - 2016-08-23 01:35:19 --> Model Class Initialized
+INFO - 2016-08-23 01:35:19 --> Model Class Initialized
+INFO - 2016-08-23 01:35:19 --> Database Driver Class Initialized
+INFO - 2016-08-23 01:35:19 --> Model Class Initialized
+INFO - 2016-08-23 01:35:19 --> File loaded: /var/www/star-game/application/views/explore.php
+INFO - 2016-08-23 01:35:19 --> Final output sent to browser
+DEBUG - 2016-08-23 01:35:19 --> Total execution time: 0.3206
