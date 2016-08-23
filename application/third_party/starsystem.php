@@ -1,4 +1,5 @@
 <?php
+log_message('debug', 'Loaded StarSystem class');
 
 class StarSystem {
   protected $id, $x, $y;

@@ -1,4 +1,5 @@
 <?php
+log_message('debug', 'Loaded Map class');
 
 class Map {
   protected $mapArray = array();

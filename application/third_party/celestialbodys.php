@@ -1,5 +1,6 @@
 <?php
 
+log_message('debug', 'Loaded CelestialObject classes');
 abstract class CelestialObject {
   protected $id, $size, $starsystem, $position, $data;
   protected $ci;
