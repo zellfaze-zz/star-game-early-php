@@ -56,5 +56,19 @@ class Settlement implements SaveLoad {
     $this->owner_id  = $data['owner_id'];
   }
   
+  public function setOwner($id) {
+    $this->owner_id = $id;
+  }
   
+  public function getOwner() {
+    return $this->owner_id;
+  }
+  
+  public function setPlanet($id) {
+    $this->planet_id = $id;
+  }
+  
+  public function getPlanet() {
+    return $this->planet_id;
+  }
 }

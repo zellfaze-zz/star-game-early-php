@@ -156,6 +156,7 @@ class RockyPlanet extends Planet {
   
   public function __construct($size, $isID = false) {
     parent::__construct($size, $isID);
+    $ci->load->model('settlement_model');
     
     //Have we ever determined if this planet is habitable?
     if (!isset($this->data['habitable'])) {
@@ -177,6 +178,38 @@ class RockyPlanet extends Planet {
   
   public function isHabitable() {
     return $this->data['habitable'];
+  }
+  
+  public function getSettlements() {
+    if ($this->id === null) {
+      throw new Exception('Planet must be saved before settlements can be used!');
+    }
+    
+    $settlements = $this->settlement_model->getSettlementsOnPlanet($this->id);
+    
+    if ($settlements === null) {
+      return null;
+    }
+    
+    $settlementObjs = array();
+    foreach ($settlements as $id) {
+      $settlementObjs[] = new Settlement($id);
+    }
+    
+    return $settlementObjs;
+  }
+  
+  public function addSettlement($owner_id) {
+    if ($this->id === null) {
+      throw new Exception('Planet must be saved before settlements can be used!');
+    }
+    
+    $settlement = new Settlement();
+    $settlement->setOwner($owner_id);
+    $settlement->setPlanet($this->id);
+    $settlement->saveData();
+    
+    return $settlement;
   }
 }
 
