@@ -1,7 +1,7 @@
 <?php
 log_message('debug', 'Loaded Map class');
 
-class Map {
+class Map implements SaveLoad {
   protected $mapArray = array();
   protected $idArray = array();
   protected $ci;

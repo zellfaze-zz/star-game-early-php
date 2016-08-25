@@ -1,7 +1,7 @@
 <?php
 
 log_message('debug', 'Loaded CelestialObject classes');
-abstract class CelestialObject {
+abstract class CelestialObject implements SaveLoad {
   protected $id, $size, $starsystem, $position, $data;
   protected $ci;
   

@@ -1,7 +1,7 @@
 <?php
 log_message('debug', 'Loaded StarSystem class');
 
-class StarSystem {
+class StarSystem implements SaveLoad {
   protected $id, $x, $y;
   protected $bodies = array();
   protected $ci;
@@ -16,7 +16,8 @@ class StarSystem {
       $this->y = null;
       $this->generateNewSystem();
     } else {
-      $this->loadData($id);
+      $this->id = $id;
+      $this->loadData();
     }
   }
   
@@ -213,17 +214,16 @@ class StarSystem {
     return false;
   }
   
-  public function loadData($id) {
+  public function loadData() {
     $this->ci->load->model('map_model');
     
     //Get Core System Data
-    $systemData = $this->ci->map_model->getSystem($id);
-    $this->id= $id;
+    $systemData = $this->ci->map_model->getSystem($this->id);
     $this->x = $systemData['x'];
     $this->y = $systemData['y'];
     
     //Get Planet Data
-    $planetData = $this->ci->map_model->getPlanetList($id);
+    $planetData = $this->ci->map_model->getPlanetList($this->id);
     foreach ($planetData as $planet) {
       $planetObj = new $planet['type']($planet['id'], true);
       $this->bodies[$planet['position']] = $planetObj;

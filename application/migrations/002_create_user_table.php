@@ -27,10 +27,10 @@ class Migration_Create_user_table extends CI_Migration {
     ));
     $this->dbforge->add_key('id', TRUE);
     $this->dbforge->create_table('users');
-    
   }
-
+  
   public function down() {
     $this->dbforge->drop_table('users');
   }
+  
 }
