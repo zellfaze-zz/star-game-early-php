@@ -41,5 +41,9 @@ class Settlement_model extends CI_Model {
     
     return $settlements;
   }
+  
+  public function dropSettlement($id) {
+    $this->db->delete('settlements', array('id' => $id));
+  }
  
 }

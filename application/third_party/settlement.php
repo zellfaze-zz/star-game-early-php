@@ -71,4 +71,15 @@ class Settlement implements SaveLoad {
   public function getPlanet() {
     return $this->planet_id;
   }
+  
+  public function delete() {
+    Settlement::deleteSettlement($this->id);
+  }
+  
+  public static function deleteSettlement($id) {
+    $ci = get_instance()
+    $ci->load->model('settlement_model');
+    
+    $ci->settlement_model->dropSettlement($id);
+  }
 }
