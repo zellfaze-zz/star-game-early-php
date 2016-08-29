@@ -156,7 +156,7 @@ class RockyPlanet extends Planet {
   
   public function __construct($size, $isID = false) {
     parent::__construct($size, $isID);
-    $ci->load->model('settlement_model');
+    $this->ci->load->model('settlement_model');
     
     //Have we ever determined if this planet is habitable?
     if (!isset($this->data['habitable'])) {

@@ -77,7 +77,7 @@ class Settlement implements SaveLoad {
   }
   
   public static function deleteSettlement($id) {
-    $ci = get_instance()
+    $ci = get_instance;
     $ci->load->model('settlement_model');
     
     $ci->settlement_model->dropSettlement($id);
