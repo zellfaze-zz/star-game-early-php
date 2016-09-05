@@ -53,3 +53,56 @@ class Resources {
     );
   }
 }
+
+trait ResourceContainer {
+  protected $resourceContainer = array();
+  protected $resourceContainerTransforms = array();
+  protected $resourceContainerLastUpdated = null;
+  
+  public function addResource($resource, $amount) {
+    $this->resourceContainer[$resource] += $amount;
+  }
+  
+  public function removeResource($resource, $amount) {
+    $this->resourceContainer[$resource] -= $amount;
+  }
+  
+  public function getResource($resource) {
+    return $this->resourceContainer[$resource];
+  }
+  
+  public function addResourceTransform($transformObject) {
+    $this->resourceContainerTransforms[] = $transformObject;
+  }
+  
+  public function updateResourceContainer() {
+    if ($this->resourceContainerLastUpdated === null) {
+      throw new Exception('Container last updated must be initialised!');
+    }
+    
+    foreach ($this->resourceContainerTransforms as $transform) {
+      $resources = $transform->getAcceptedResourceList();
+      
+      $bucket = array();
+      foreach ($resources as $resource) {
+        $bucket[$resource] = $this->ResourceContainer[$resource];
+      }
+      unset($resouce)
+      
+      $newBucket = $transform->transformResources($bucket, $this->resourceContainerLastUpdated, $now);
+      
+      foreach ($newBucket as $resource => $value) {
+        $this->addResource($resouce, $value);
+      }
+    }
+  }
+}
+
+trait ResourceTransform {
+  abstract public function transformResources($resources, $start, $end, $max = null);
+    //Returns array with changes to resources listed
+    //Accepts array of current resources
+    
+  abstract public function getAcceptedResourceList();
+    //Returns an array listing resources accepted
+}
